@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+  <head>
+    <title>parity</title>
+    <!-- Begin Facebook Metadata -->
+
+    <meta property="fb:app_id" content="916448168386651" />
+    <meta property="og:url" content="http://abefehr.com/parity/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Parity" />
+    <meta property="og:image" content="http://abefehr.com/parity/images/screenshot.png" />
+    <meta property="og:description" content="An addicting numbers puzzle game.">
+    <meta name="description" content="An addicting numbers puzzle game.">
+
+    <!-- End Facebook Metadata -->
+    <script src="scripts/production.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One|Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="styles/mobile.css" rel="stylesheet" type="text/css" media="screen and (max-device-width:800px)" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+  </head>
+  <body>
+    <!-- Begin Clay -->
+    <script>
+      (function(C,l,a,y,_,i,o){C[_]=C[_]||function(){
+      (C[_].q=C[_].q||[]).push(arguments)},C[_].l=1*new Date();i=l.createElement(a),
+      o=l.getElementsByTagName(a)[0];i.async=1;i.src=y;o.parentNode.insertBefore(i,o)
+      })(window,document,'script','//cdn.wtf/sdk/v1/clay_sdk.js','Clay');
+
+      Clay('init', {gameId: '8304'})
+    </script>
+
+
+    <!-- Begin Facebook SDK -->
+    <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '916448168386651',
+        xfbml      : true,
+        version    : 'v2.2'
+      });
+    };
+
+    (function(d, s, id){
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {return;}
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- End Facebook SDK -->
+
+    <div id="container">
+      <p id="title" class="light poiret center">parity</p>
+      <div id="box">
+        <div id="overlay">
+          <h1></h1>
+          <div id="content"></div>
+          <!-- this button is in a holder so that I can center it and control its height properly -->
+          <div id="holder">
+            <button> </button>
+          </div>
+        </div>
+        <div id="swipeArea"></div>
+        <div class="dSelected" id="selector"></div>
+        <!-- The arrow that guides the user for the very first level -->
+        <div id="introtutorial"></div>
+        <table id="board">
+          <tbody id="board_body">
+            <tr>
+              <td class="cell center" data-x="0" data-y="0">4</td>
+              <td class="cell center" data-x="1" data-y="0">4</td>
+              <td class="cell center" data-x="2" data-y="0">4</td>
+            </tr>
+            <tr>
+              <td class="cell center" data-x="0" data-y="1">4</td>
+              <td class="cell center" data-x="1" data-y="1">4</td>
+              <td class="cell center" data-x="2" data-y="1">4</td>
+            </tr>
+            <tr>
+              <td class="cell center" data-x="0" data-y="2">4</td>
+              <td class="cell center selected" data-x="1" data-y="2">4</td>
+              <td class="cell center" data-x="2" data-y="2">4</td>
+            </tr>
+            <tr>
+              <td colspan="2"><a id="level" href="#" class="light poiret left">level #</a></td>
+              <td colspan="2" class="right">
+                <a id="reset" href="#" class="poiret"><img src="images/reset.png" style="width:7vh;" /></a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="text-align:center;margin:1vh;">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- parity_underneath_fixed -->
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:320px;height:100px"
+             data-ad-client="ca-pub-4885767461778395"
+             data-ad-slot="9072452678"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+      <!--<p id="about" class="light poiret center">A numbers puzzle game by <a href="http://abefehr.com/" target="_blank">Abe Fehr</a></p>-->
+    </div>
+    <!-- Begin Facebook Like Button -->
+    <div class="fb-like" data-href="http://abefehr.com/parity/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false"></div>
+    <!-- End Facebook Like Button -->
+  </body>
+</html>
