@@ -1,8 +1,7 @@
 Yesh Parity
 ======
 
-Parity is a simple numbers puzzle game written in Javascript. It was inspired by OCD-like impulses to make sure the icons on my desktop were all selected the same number of times.
-
+Parity is a simple numbers puzzle game written in Javascript. 
 <p align="center">
   <img src="images/screenshot.png" />
 </p>
