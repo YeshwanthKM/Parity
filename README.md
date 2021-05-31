@@ -2,9 +2,6 @@ Yesh Parity
 ======
 
 Parity is a simple numbers puzzle game written in Javascript. 
-<p align="center">
-  <img src="images/screenshot.png" />
-</p>
 
 How to play
 ===========
