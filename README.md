@@ -14,11 +14,4 @@ The game is played by moving a cursor around the board to select different squar
 
 The goal of the game is to make each number on the board equal.
 
-Mobile
-======
 
-Parity is mobile-friendly. Simply visit the website on your device's browser to play. It's recommended that you add the page to your home screen if you own an iPhone for a better experience.
-
-License
-=======
-Parity is licensed under the [MIT license.](https://github.com/abejfehr/parity/blob/master/LICENSE.txt)
